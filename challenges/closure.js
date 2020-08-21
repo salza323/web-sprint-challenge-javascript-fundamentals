@@ -26,7 +26,10 @@ myFunction();
  
 function summation(param){
   let counter = 0
-  counter.push(param ++)
+  for (let i = 1; i <= param; i++){
+    counter += i
+  }
+  // counter.push(param ++)
   return counter
 }
 
